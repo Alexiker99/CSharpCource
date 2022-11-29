@@ -1,5 +1,4 @@
 ﻿// Command Div
-int numberA = 10;
-int numberB = 5;
-int result = numberA / numberB;
-Console.WriteLine(result);
+double numberA = 12;
+double numberB = 11;
+Console.WriteLine(numberA / numberB);
