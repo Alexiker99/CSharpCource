@@ -24,7 +24,7 @@ void PrintArray(int[] col)
  }
 }
 
-int IndexOf(Int[] collection, int find)
+int IndexOf(int[] collection, int find)
 {
    int count = collection.Length;
    int index = 0;
