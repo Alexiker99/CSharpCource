@@ -33,7 +33,5 @@ void palindrome()
             Console.WriteLine(n + " -> Нет, это не палиндром...");
         }
  }
-
-        for (int i = 0; i < 10; i++)
 palindrome();
 
