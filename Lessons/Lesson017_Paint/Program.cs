@@ -32,11 +32,11 @@ int[,] pic = new int[,]
 
 void PrintImage(int[,] image) // Метод, который выводит картинку в терминал
 {
- for (int i = 0; i < image.GetLength(0); i++)
+ for (int i = 0; i < image.GetLength(0); i++) // цикл для 0
  {
- for (int j = 0; j < image.GetLength(1); j++)
+ for (int j = 0; j < image.GetLength(1); j++) // цикл для 1
  {
- if(image[i,j] == 0) Console.Write($" ");
+ if(image[i,j] == 0) Console.Write($" "); 
  else Console.Write($"+");
  }
  Console.WriteLine();
