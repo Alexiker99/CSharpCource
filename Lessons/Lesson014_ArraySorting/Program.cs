@@ -8,6 +8,7 @@ void PrintArray(int[]array)
 {
     int count = array.Length;
 
+    int Length = 0;
     for (int i = 0; i < Length; i++)
     {
         Console.Write($"{array[i]} ");
@@ -22,7 +23,7 @@ void SelectionSort(int[] array)
         int minPosition = i;
        for (int j = i + 1; j < array.Length; j++) // Здесь мы заганяем цикл в цикл
     {
-        if(array[j] < array [minPossition]); //Вводим с помошью интерполяции строк
+        if(array[j] < array [minPosition]); //Вводим с помошью интерполяции строк
     }
         int temporary = array [i];
         array [i] = array[minPosition];
