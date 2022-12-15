@@ -3,12 +3,13 @@
 // f(2) = 1
 // f(n) = f(n - 1) + f (n - 2)
 
-double Fibonacci(int n);
+double Fib(int n)
 {
-    if (n == 1 || n == 2) return 1;
-    else return Fibonacci(n - 1) + Fibonacci(n - 2); //f(n) = f(n - 1) + f (n - 2)
+    if (n ==1 || n == 2) return 1;
+    else return Fib(n - 1) + Fib (n - 2);
 }
-for (int i = 1; i < 50; i++)
+
+for (int i = 1; i < 40; i++)
 {
-    Console.WriteLine($"f({i}) = {Fibonacci(i)}");
+    Console.WriteLine($"f{i} = {Fib(i)}");
 }
