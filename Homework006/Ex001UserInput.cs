@@ -59,5 +59,3 @@ public static class Ex001UserInput
         }
     }
 }
-
-
