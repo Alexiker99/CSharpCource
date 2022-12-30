@@ -1,3 +1,3 @@
-﻿//Ex001RecursionNumber64();
-//Ex002SumBetweenNumber.Task66();
+﻿//Ex001RecursionNumber.Task64();
+Ex002SumBetweenNumbers.Task66();
 //Ex003AckermanFunction.Task68();
