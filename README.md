@@ -1,2 +1,2 @@
 # CSharpCource
-For My HomeWork and Practiece
+Для изучения языка программирования C#
